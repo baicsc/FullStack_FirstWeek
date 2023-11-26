@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pen</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .header {
+            width: 100%;
+            height: 400px;
+            position: relative;
+            background-image: url(The\ best\ pen\ is\ \ just\ LAMY.png);
+            background-size: 100% 400px;
+        }
+
+        .header_flex {
+            width: 700px;
+            height: 75px;
+            position: relative;
+            left: 27%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: aliceblue;
+        }
+
+        .box {
+            position: relative;
+
+            width: 100px;
+            height: 75px;
+        }
+
+        .box~.box3 {
+            background-image: url(img_lamylogo.png);
+            background-size: 100% 75px;
+            width: 125px;
+        }
+
+        .background {
+            position: relative;
+            top: 40px;
+            background-image: url(q.png);
+            width: 100%;
+            height: 300px;
+        }
+
+        .welcome {
+            position: relative;
+            top: 50px;
+            left: 27%;
+            width: 700px;
+            height: 300px;
+
+            display: flex;
+            flex-direction: row;
+        }
+
+        .welcome_img {
+            width: 300px;
+            height: 300px;
+            background-image: url(w.png);
+            background-size: 100% 300px;
+        }
+
+        .welcome_text {
+            width: 400px;
+            height: 300px;
+            background-image: url(e.png);
+            background-size: 100% 300px;
+        }
+
+        .title {
+            position: relative;
+            top: 30px;
+            left: 12%;
+            width: 230px;
+            height: 55px;
+            background-image: url(Welcome\ to\ Lamy.png);
+            background-size: 100% 55px;
+        }
+
+        .welcome_video {
+            position: absolute;
+            left: 90px;
+            bottom: -50px;
+            background-image: url(r.png);
+            background-size: 100% 170px;
+            width: 270px;
+            height: 170px;
+        }
+
+        .lamy_series {
+            position: relative;
+            top: 150px;
+            left: 27%;
+            width: 700px;
+            height: 500px;
+
+        }
+
+        .lamy_series_title {
+            position: relative;
+            top: 50px;
+            left: 35%;
+            width: 250px;
+            height: 55px;
+            font-weight: bold;
+            font-size: 32px;
+
+        }
+
+        .lamy_series_flex {
+            position: relative;
+            top: 80px;
+            width: 100%;
+            height: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .lamy_box {
+            width: 200px;
+            height: 250px;
+            text-align: center;
+        }
+
+        .lamy_series_button {
+            position: absolute;
+            top: 400px;
+            left: 40%;
+            width: 150px;
+            height: 50px;
+            background-image: url(y.png);
+            background-size: 100% 50px;
+        }
+
+        .pen {
+            position: relative;
+            top: 150px;
+            left: 0%;
+            width: 100%;
+            height: 250px;
+            background-image: url(i.png);
+        }
+
+        /* .pen_flex {
+            position: relative;
+            left: 27%;
+            top: 0px;
+            width: 61.3%;
+            height: 100%;
+            background-color: rgb(119, 119, 120);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        } */
+        .pen_box {
+            position: relative;
+            left: 12%;
+            width: 1200px;
+            height: 250px;
+            background-image: url(u.png);
+            background-size: 100% 250px;
+        }
+
+        .pen_button {
+            position: absolute;
+            top: 120px;
+            left: 26%;
+            width: 85px;
+            height: 35px;
+            background-color: rgb(224, 28, 28);
+            color: aliceblue;
+            text-align: center;
+        }
+
+        .comment {
+            position: relative;
+            top: 150px;
+            background-image: url(o.png);
+            background-size: 100% 250px;
+            width: 100%;
+            height: 250px;
+        }
+
+        .com_main {
+            position: absolute;
+            left: 540px;
+            bottom: -90px;
+            background-image: url(p.png);
+            background-size: 100% 200px;
+            background-color: rgb(249, 251, 253);
+            width: 490px;
+            height: 200px;
+        }
+
+        .product {
+            position: relative;
+            top: 250px;
+            left: 27%;
+            width: 700px;
+            height: 750px;
+
+        }
+
+        .product_title {
+            position: relative;
+            top: 50px;
+            left: 35%;
+            width: 200px;
+            height: 75px;
+            background-image: url(a.png);
+            background-size: 100% 75px;
+        }
+
+        .product_flex {
+            position: relative;
+            top: 90px;
+            width: 100%;
+            height: 400px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .product_box1 {
+            width: 200px;
+            height: 400px;
+            background-image: url(s.png);
+            background-size: 100% 400px;
+        }
+
+        .product_box2 {
+            width: 200px;
+            height: 400px;
+            background-image: url(d.png);
+            background-size: 100% 400px;
+        }
+
+        .product_box3 {
+            width: 200px;
+            height: 400px;
+            background-image: url(f.png);
+            background-size: 100% 400px;
+        }
+
+        /* .product_box_1_1{
+            position: relative;
+            top: 30;
+            background-color: beige;
+        } */
+
+        .product_button {
+            position: absolute;
+            top: 630px;
+            left: 35.6%;
+            width: 200px;
+            height: 75px;
+            background-image: url(g.png);
+            background-size: 100% 75px;
+        }
+
+        .new {
+            position: relative;
+            top: 250px;
+            left: 0%;
+            width: 100%;
+            height: 250px;
+            background-image: url(h.png);
+            background-size: 100% 250px;
+        }
+
+        .new_flex {
+            position: relative;
+            left: 28%;
+            top: 190px;
+            width: 670px;
+            height: 250px;
+            background-color: rgb(247, 249, 250);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .new_box1 {
+            flex: 2.5;
+            background-image: url(j.png);
+            background-size: 100% 250px;
+            font-weight: bold;
+        }
+
+        .new_box2 {
+            flex: 3;
+            font-weight: bold;
+        }
+
+        .new_button {
+            position: relative;
+            top: 210px;
+            left: 42%;
+            width: 200px;
+            height: 75px;
+            background-color: rgb(230, 12, 12);
+            background-image: url(k.png);
+            background-size: 100% 75px;
+        }
+
+        .end {
+            position: relative;
+            top: 553px;
+            left: 0%;
+            width: 100%;
+            height: 550px;
+            background-image: url(l.png);
+            background-size: 100% 550px;
+        }
+
+        .end1 {
+            position: relative;
+            top: 550px;
+            left: 0%;
+            width: 100%;
+            height: 25px;
+            text-align: center;
+            background-color: rgb(62, 62, 62);
+            color: rgb(176, 177, 177);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_flex">
+            <div class="box">新品推荐</div>
+            <div class="box">在线购买产品</div>
+            <div class="box box3"></div>
+            <div class="box">企业礼包</div>
+            <div class="box">品牌介绍</div>
+        </div>
+    </div>
+    <div class="background">
+        <div class="welcome">
+            <div class="welcome_img"></div>
+            <div class="welcome_text">
+                <div class="title"></div>
+            </div>
+            <div class="welcome_video"></div>
+        </div>
+    </div>
+    <div class="lamy_series">
+        <div class="lamy_series_title">LAMY各系列</div>
+        <div class="lamy_series_flex">
+            <div class="lamy_box">【恒星系列 墨水笔 】<br /><br /><br />LAMY 恒星系列延续了LAMY的时尚造型,打造出锦上添花的极致品质
+                。此系列全部均由氧化
+                独特的凹陷式笔握以及弹性铜线笔夹
+                富的颜色让 LAMY 恒星系列突破了传统
+                散发着无限的青春魅力。</div>
+            <div class="lamy_box">【狩猎系列限量色墨水笔 】<br /><br /><br />色彩丰富，颜色亮丽，不仅是可以作为书
+                写工具，同样是很好的装饰品
+                宽大的笔夹设计，可随时夹在包带、牛仔裤、
+                T恤袖口上,让您感受创意方便的携带方式
+                笔身通体材质采用车用强力ABS材料</div>
+            <div class="lamy_box">【喜悦系列美术笔 】<br /><br /><br />用以绘图、写艺术字、艺术签名
+                扁平状的笔尖设计，适合书写艺术字
+                立体感极佳.1、1.5、1.9三种笔尖可供选择
+                ，可书写粗细不等的立体字，让您随时
+                感受变化的乐趣复古的笔杆设计
+                ，经典又与众不同，显示出独特的欣赏品味</div>
+        </div>
+        <div class="lamy_series_button"></div>
+    </div>
+    <div class="pen">
+        <div class="pen_box"></div>
+        <div class="pen_button">LAMY</div>
+    </div>
+    <div class="comment">
+        <div class="com_main"></div>
+    </div>
+    <div class="product">
+        <div class="product_title"></div>
+        <div class="product_flex">
+            <div class="product_box1">
+                <!-- <div class="product_box_1_1"></div>
+                <div class="product_box_1_2"></div> -->
+            </div>
+            <div class="product_box2"></div>
+            <div class="product_box3"></div>
+        </div>
+        <div class="product_button"></div>
+    </div>
+    <div class="new">
+        <div class="new_flex">
+            <div class="new_box1"></div>
+            <div class="new_box2">You make millions of decisions that is
+                mean nothing,and then one day your
+                order takes out life.<br /><br />It's sad when you realize you aren't
+                is as important to someone as you
+                thought you were.<br /><br /><br />Love is unequal, so don't count how
+                much one contributes, and which is
+                more active.</div>
+        </div>
+        <div class="new_button"></div>
+    </div>
+    <div class="end"></div>
+    <div class="end1">凌美中国&nbsp;&nbsp;2015&nbsp;&nbsp;版权所有&nbsp;&nbsp;不得转载</div>
+</body>
+
+</html>
