@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 4355364 */
+  src: url('iconfont.woff2?t=1701467705320') format('woff2'),
+    url('iconfont.woff?t=1701467705320') format('woff'),
+    url('iconfont.ttf?t=1701467705320') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jiahao1:before {
+  content: "\e727";
+}
+
+.icon-fanhui:before {
+  content: "\e8a4";
+}
+
+.icon-tianjiazhaopian:before {
+  content: "\e659";
+}
+
+.icon-jinggao:before {
+  content: "\e624";
+}
+
+.return {
+  font-family: "iconfont" !important;
+  font-size: 50px;
+  font-style: normal;
+  color: rgba(238, 244, 244, 0.5);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 18px;
+  top: 39px;
+}
+
+.warn {
+  font-family: "iconfont" !important;
+  font-size: 50px;
+  font-style: normal;
+  color: rgba(238, 244, 244, 0.5);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 528px;
+  top: 39px;
+}
+
+.bigbox {
+  width: 600px;
+  height: 1059px;
+  background-image: url(Base.png);
+  position: absolute;
+  left: 600px;
+  position: relative;
+}
+
+.sign {
+  position: absolute;
+  left: 233px;
+  top: 39px;
+  font-size: 33px;
+  color: rgba(235, 237, 240, 0.8);
+}
+
+.photo {
+  position: absolute;
+  border: 2px solid rgb(245, 243, 243, 0.5);
+  left: 228px;
+  top: 168px;
+  width: 147px;
+  height: 147px;
+  border-radius: 50%;
+  text-align: center;
+  color: rgba(235, 237, 240, 0.8);
+  background-color: rgb(237, 240, 242, 0.1);
+}
+
+.add {
+  font-family: "iconfont" !important;
+  font-size: 50px;
+  font-style: normal;
+  color: rgba(238, 244, 244, 0.7);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 278px;
+  top: 209px;
+
+}
+
+.user {
+  position: relative;
+  top: 360px;
+
+  background-color: rgb(40, 235, 235, 0);
+  width: 100%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.box {
+  position: relative;
+  width: 68%;
+  height: 70px;
+  background-color: rgb(154, 51, 51, 0);
+  font-size: 24px;
+  color: rgb(246, 249, 251, 0.9);
+  border-bottom: 2px solid rgba(230, 235, 235, 0.3);
+}
+
+.box4 {
+  position: relative;
+  width: 68%;
+  height: 70px;
+  background-color: rgb(170, 45, 45, 0);
+  font-size: 24px;
+  color: rgb(246, 249, 251, 0.9);
+}
+
+span {
+  color: aqua;
+}
+
+.buttom {
+  position: absolute;
+  top: 700px;
+  left: 108px;
+  background-color: rgb(244, 243, 241);
+  height: 75px;
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 80px;
+  font-size: 30px;
+  color: rgba(101, 75, 132, 0.6);
+}
+
+.end {
+  position: absolute;
+  top: 780px;
+  left: 108px;
+  background-color: rgb(244, 243, 241, 0);
+  height: 75px;
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 17px;
+  color: aliceblue;
+}
